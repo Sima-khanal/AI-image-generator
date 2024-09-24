@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="logo">ImageGen</div>
+          <div class="menu-icon">
+            <img src="https://i.pinimg.com/474x/87/b5/91/87b591fa7373b67283010a334b8ca3c6.jpg" alt="Menu">
+          </div>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </nav>
+    </header>
+  
+
+    <main>
+        <div class="container">
+            <h1>Generate AI Images with a Single Prompt</h1>
+            <p>Enter your creative prompt, and let the AI do the magic!</p>
+            <form id="imageForm">
+                <input type="text" id="promptInput" placeholder="Type your prompt here..." required>
+                <button type="submit">Generate Image</button>
+            </form>
+            <div id="imageContainer">
+                <!-- The generated image will appear here -->
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ImageGen. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
